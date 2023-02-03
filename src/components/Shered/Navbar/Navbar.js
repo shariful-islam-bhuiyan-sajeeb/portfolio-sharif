@@ -34,7 +34,7 @@ const Navbar = () => {
                         </div>
                             <h2
                             className='sm:text-2xl text-xl  uppercase font-bold text-black font-serif '>
-                                Port <span className='text-[#2978CB]'>folio</span>
+                            Port <span className='text-[#2978CB]'>folio</span>
                             </h2>
                     </div>
 
@@ -44,7 +44,6 @@ const Navbar = () => {
                             {menuItem}
                         </ul>
                     </div>
-
                     <div className='flex items-center'>
                         <Link>
                             <button
@@ -53,15 +52,18 @@ const Navbar = () => {
                             </button>
                         </Link>
                     </div>
-                    <div className='dropdown'>
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden ">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
-                        <ul tabIndex={0} className='menu menu-compact  dropdown-content mt-3 shadow bg-base-100 text-black   rounded-box p-2'>
-                            <li className='hover:text-red-500'>{menuItem}</li>
-                        </ul>
+                    <div>
+                        <div className='dropdown w-full'>
+                            <label tabIndex={0} className="btn btn-ghost lg:hidden ">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            </label>
+                            <ul tabIndex={0} className='menu menu-compact  dropdown-content mt-3 shadow bg-base-100 text-black   rounded-box'>
+                                <li className='hover:text-red-500'>{menuItem}</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </header>
     );

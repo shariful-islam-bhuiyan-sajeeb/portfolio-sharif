@@ -1,4 +1,5 @@
 import React from 'react';
+import AbouteMe from '../AbouteMe/AbouteMe';
 import AboutMe from '../AboutMe/AboutMe';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
@@ -10,10 +11,11 @@ const Home = () => {
     return (
         <div className=' max-w-[1440px] mx-auto'>
             <Banner></Banner>
+            <AbouteMe></AbouteMe>
             <Projects></Projects>
             <ProfessionalSkill></ProfessionalSkill>
-            <AboutMe></AboutMe>
-            <Contact/>
+            {/* <AboutMe></AboutMe> */}
+            {/* <Contact/> */}
            
         </div>
     );
