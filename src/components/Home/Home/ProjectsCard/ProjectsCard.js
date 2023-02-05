@@ -41,11 +41,11 @@ const ProjectsCard = () => {
                     </div>
                     <div className=' flex justify-between py-4'>
                         <div>
-                            <label htmlFor="phone-store-modal" className=" flex items-center text-xl gap-2 font-bold text-black border-2 p-3 rounded-lg shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500">Project Details</label>
+                            <label htmlFor="phone-store-modal" className=" flex items-center text-xl gap-2 font-bold text-black border-2 p-3 rounded-lg shadow-2xl bg-[#2978CB]">Project Details</label>
 
                         </div>
                         <div>
-                            <a target="blank" href="https://assignment-12-34bee.web.app/"><h2 className='flex items-center text-xl gap-2 font-bold  border-2 p-3 rounded-lg shadow-2xl  bg-gradient-to-r from-purple-500 to-pink-500'>View Project <HiArrowRight className='font-bold'></HiArrowRight> </h2></a>
+                            <a target="blank" href="https://assignment-12-34bee.web.app/"><h2 className='flex items-center text-xl gap-2 font-bold  border-2 p-3 rounded-lg shadow-2xl  bg-[#2978CB]'>View Project <HiArrowRight className='font-bold'></HiArrowRight> </h2></a>
                         </div>
                     </div>
                 </div>
@@ -71,11 +71,11 @@ const ProjectsCard = () => {
 
                     <div className=' flex justify-between py-4'>
                         <div>
-                            <label htmlFor="web-programming-modal" className=" flex items-center text-xl gap-2 font-bold text-black border-2 p-3 rounded-lg shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500">Project Details</label>
+                            <label htmlFor="web-programming-modal" className=" flex items-center text-xl gap-2 font-bold text-black border-2 p-3 rounded-lg shadow-2xl bg-[#2978CB]">Project Details</label>
 
                         </div>
                         <div>
-                            <a target="blank" href="https://assignment-10-cline-projects.web.app/"><h2 className='flex items-center text-xl gap-2 font-bold  border-2 p-3 rounded-lg shadow-2xl  bg-gradient-to-r from-purple-500 to-pink-500'>View Project <HiArrowRight className='font-bold'></HiArrowRight> </h2></a>
+                            <a target="blank" href="https://assignment-10-cline-projects.web.app/"><h2 className='flex items-center text-xl gap-2 font-bold  border-2 p-3 rounded-lg shadow-2xl  bg-[#2978CB]'>View Project <HiArrowRight className='font-bold'></HiArrowRight> </h2></a>
                         </div>
                     </div>
                 </div>
@@ -100,11 +100,11 @@ const ProjectsCard = () => {
 
                         <div className=' flex justify-between py-4'>
                             <div>
-                                <label htmlFor="quiz-modal" className=" flex items-center text-xl gap-2 font-bold text-black border-2 p-3 rounded-lg shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500">Project Details</label>
+                                <label htmlFor="quiz-modal" className=" flex items-center text-xl gap-2 font-bold text-black border-2 p-3 rounded-lg shadow-2xl bg-[#2978CB]">Project Details</label>
 
                             </div>
                             <div>
-                                <a target="blank" href="https://bejewelled-sfogliatella-aa8283.netlify.app/"><h2 className='flex items-center text-xl gap-2 font-bold  border-2 p-3 rounded-lg shadow-2xl  bg-gradient-to-r from-purple-500 to-pink-500'>View Project <HiArrowRight className='font-bold'></HiArrowRight> </h2></a>
+                                <a target="blank" href="https://bejewelled-sfogliatella-aa8283.netlify.app/"><h2 className='flex items-center text-xl gap-2 font-bold  border-2 p-3 rounded-lg shadow-2xl  bg-[#2978CB]'>View Project <HiArrowRight className='font-bold'></HiArrowRight> </h2></a>
                             </div>
                         </div>
                     </div>
