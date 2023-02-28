@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import sojib from '../../../asset/sojib2.jpg'
 
 const Navbar = () => {
     const menuItem = <>
         <li className="flex">
-            <a rel="noopener noreferrer" href="#banner" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Home</a>
+            <Link to="/" rel="noopener noreferrer" href="#banner" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Home</Link>
         </li>
         <li className="flex">
-            <a rel="noopener noreferrer" href="#projects" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Resume</a>
+            <Link to='/resume' rel="noopener noreferrer" href="#projects" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Resume</Link>
         </li>
         <li className="flex">
             <a rel="noopener noreferrer" href="#skill" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Service</a>
@@ -22,13 +21,13 @@ const Navbar = () => {
     </>
 
     return (
-        <header className="sm:py-4 py-2 mb-10  bg-[#f0f2f5]">
+        <header className="sm:py-4 py-2   bg-[#f0f2f5]">
             <div className="w-5/6 mx-auto flex  items-center justify-around ">
                 <div className="flex gap-4 items-center p-2">
                     <div className="avatar hidden sm:flex">
                         <div
                             className="w-16 rounded-full ring  ring-offset-base-100 ring-offset-2 ">
-                            <img className='' src={sojib} alt='/' />
+                            <img className='' src="https://i.ibb.co/N9RRHGt/s-1.jpg" alt='/' />
                         </div>
                     </div>
                     <h2

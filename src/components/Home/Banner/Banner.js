@@ -1,21 +1,23 @@
 import React from 'react';
 import './banner.css'
-import sojib1 from '../../../asset/sojib2.jpg'
-import { FaBeer, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import react from '../../../asset/React-icon.svg.png'
 import js from '../../../asset/js.png'
 import node from '../../../asset/node js.png'
 
 
 const Banner = () => {
+
     return (
         <section className=" ">
             <div className="container  flex flex-col md:flex-row md:w-full mx-auto  ">
-                <div className="flex items-center justify-center">
+                <div style={{
+                    backgroundImage: `url(https://i.ibb.co/zbs3gwD/Group-31-1.png)`
+                }}
+                    className="flex items-center justify-center">
                     <img
-                        className=" flex justify-center items-center sm:w-96 w-80 lg:h-[550px] md:h-[450px] mx-auto"
-                        src={sojib1}
+                        className=" flex justify-center items-center sm:w-full  lg:h-[550px] md:h-[450px] mx-auto"
+                        src="https://i.ibb.co/zrbj47J/s-1-removebg-preview-1.png"
                         alt="" />
                 </div>
                 <div className=" md:text-left  lg:w-3/5 w-full mx-auto lg:pt-6 pt-2 lg:mt-16 md:mt-8 mt-5 md:text-block">
