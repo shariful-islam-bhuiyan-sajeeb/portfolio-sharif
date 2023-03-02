@@ -19,10 +19,10 @@ const Navbar = () => {
             <a rel="noopener noreferrer" href="#contact" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">About</a>
         </li>
     </>
-
+ 
     return (
-        <header className="sm:py-4 py-2   bg-[#f0f2f5]">
-            <div className="w-5/6 mx-auto flex  items-center justify-around ">
+        <header className="sm:py-4 py-2  bg-[#f0f2f5]  ">
+            <div className=" flex items-center justify-around w-5/6 mx-auto ">
                 <div className="flex gap-4 items-center p-2">
                     <div className="avatar hidden sm:flex">
                         <div
@@ -51,7 +51,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className=''>
-                    <div className='dropdown'>
+                    <div className='dropdown '>
                         <label tabIndex={0} className="btn btn-ghost lg:hidden ">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>

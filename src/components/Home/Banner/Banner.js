@@ -9,29 +9,29 @@ import node from '../../../asset/node js.png'
 const Banner = () => {
 
     return (
-        <section className=" ">
-            <div className="container  flex flex-col md:flex-row md:w-full mx-auto  ">
+        <section className=" md:mt-8 mt-4">
+            <div className="container flex flex-col md:flex-row md:w-full mx-auto  ">
                 <div style={{
                     backgroundImage: `url(https://i.ibb.co/zbs3gwD/Group-31-1.png)`
                 }}
-                    className="flex items-center justify-center">
+                    className="flex items-center justify-center sm:px-0 px-4 ">
                     <img
-                        className=" flex justify-center items-center sm:w-full  lg:h-[550px] md:h-[450px] mx-auto"
+                        className=" flex justify-center items-center text-center rounded-lg sm:w-full  lg:h-[550px] md:h-[450px] mx-auto ease-in-out duration-500 transform hover:scale-125"
                         src="https://i.ibb.co/zrbj47J/s-1-removebg-preview-1.png"
                         alt="" />
                 </div>
                 <div className=" md:text-left  lg:w-3/5 w-full mx-auto lg:pt-6 pt-2 lg:mt-16 md:mt-8 mt-5 md:text-block">
-                    <div className=' flex flex-col justify-center items-center w-11/12 mx-auto font-serif space-y-2'>
+                    <div className=' flex flex-col w-11/12 mx-auto font-serif space-y-2'>
                         <div>
-                            <div className=' lg:px-0 '>
-                                <h2 className=" sm:text-xl text-lg text-black fond-semibold leading-none ">Hello</h2>
+                            <div className=' lg:px-0  space-y-2'>
+                                <h2 className=" sm:text-2xl text-xl text-black fond-semibold leading-none ">Hello</h2>
                                 <h2 className='sm:text-4xl text-xl font-bold'> I'm <span className='text-[#2978CB]'>Shariful Islam Bhuiyan</span> </h2>
-                                <h1 className='sm:text-3xl text-lg text-black text-semibold'>A font-end Developer</h1>
+                                <h1 className='sm:text-3xl text-xl text-black text-semibold '>A font-end Developer</h1>
                             </div>
-                            <p className="mt-4 text-xl lg:mb-8 mb-4 hidden md:block ">
+                            <p className="mt-4 text-xl lg:mb-8 mb-4 hidden md:block text-justify ">
                                 Hi! I'm Shariful Islam Bhuiyan, a passionate full-stack developer. I develop websites using MERN technology. I literally spend 8-10 hours every day on Programming and Problem Solving. <span className='hidden lg:inline'>Programming is my love and passionate. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world.</span>
                             </p>
-                            <div className='flex  md:mt-3 mt-1  md:gap-8 gap-4 w-full mx-auto'>
+                            <div className='flex  mt-3  md:gap-8 gap-4 w-full mx-auto'>
                                 <div>
                                     <h2
                                         className='sm:text-xl text-md text-center font-bold sm:mb-4 mb-2 text-[#2978CB] '>
