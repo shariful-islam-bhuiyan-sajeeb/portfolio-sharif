@@ -44,7 +44,7 @@ const Contact = () => {
                                     />
                                </div>
                                 <div className=' text-center text-xl font-serif hover:font-semibold  w-3/4 mx-auto '>
-                                    <button className=" flex items-center justify-center gap-2 bg-[#2978CB] hover:bg-green-700 hover:text-white translate py-2 rounded-md uppercase  w-full ">Submit <HiCursorArrowRays/></button>
+                                    <button className=" flex items-center justify-center gap-2 bg-[#2978CB] hover:bg-green-700 hover:text-white translate py-2 rounded-md uppercase  w-full ">Sent Massage <HiCursorArrowRays/></button>
                                 </div>
                             </form >
                         </div>

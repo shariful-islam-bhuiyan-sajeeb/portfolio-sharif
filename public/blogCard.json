@@ -1,0 +1,20 @@
+[
+    {   "id": 1,
+        "img": "https://i.ibb.co/kmx5KkR/photo-1505740420928-5e560c06d30e-ixlib-rb-4-0.jpg",
+        "title": "Work time music",
+        "date": "03-Mar-23",
+        "details": "While working as a web developer, listening to music increases attention and makes you less tired.Instrumental music: Music without lyrics can be less distracting and help you concentrate on your work. You can try listening to instrumental versions of your favorite songs or look for instrumental music playlists on streaming services."
+    },
+    {   "id": 2,
+        "img": "https://i.ibb.co/5958xxW/world-globe-book-education-school-concept-123319419.jpg",
+        "title": "I like to read books",
+        "date": "03-Mar-23",
+        "details": "While working as a web developer, listening to music increases attention and makes you less tired.Instrumental music: Music without lyrics can be less distracting and help you concentrate on your work. You can try listening to instrumental versions of your favorite songs or look for instrumental music playlists on streaming services."
+    },
+    {   "id": 3,
+        "img": "https://i.ibb.co/BrSLZjZ/diaspora-word-cloud-vector-clipart-csp101763096.jpg",
+        "title": "Professional Codding Life",
+        "date": "03-Mar-23",
+        "details": "A professional coding life is a continuous journey of learning, adapting, and growing. It demands a passion for problem-solving, attention to detail, and the ability to work well under pressure. Collaboration and communication skills are also essential to work effectively in a team and deliver quality code. As technology evolves, staying up-to-date with the latest tools and trends is crucial to remain competitive and advance in the industry. Finally, a commitment to professionalism, ethics, and integrity is paramount for building a successful and fulfilling career in coding"
+    }
+]

@@ -9,7 +9,7 @@ import node from '../../../asset/node js.png'
 const Banner = () => {
 
     return (
-        <section className=" md:mt-8 mt-4">
+        <section id='banner' className=" md:mt-8 mt-4">
             <div className="container flex flex-col md:flex-row md:w-full mx-auto  ">
                 <div style={{
                     backgroundImage: `url(https://i.ibb.co/zbs3gwD/Group-31-1.png)`
@@ -23,7 +23,7 @@ const Banner = () => {
                 <div className=" md:text-left  lg:w-3/5 w-full mx-auto lg:pt-6 pt-2 lg:mt-16 md:mt-8 mt-5 md:text-block">
                     <div className=' flex flex-col w-11/12 mx-auto font-serif space-y-2'>
                         <div>
-                            <div className=' lg:px-0  space-y-2'>
+                            <div className=' lg:px-0  sm:space-y-2 '>
                                 <h2 className=" sm:text-2xl text-xl text-black fond-semibold leading-none ">Hello</h2>
                                 <h2 className='sm:text-4xl text-xl font-bold'> I'm <span className='text-[#2978CB]'>Shariful Islam Bhuiyan</span> </h2>
                                 <h1 className='sm:text-3xl text-xl text-black text-semibold '>A font-end Developer</h1>

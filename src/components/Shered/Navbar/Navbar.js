@@ -4,22 +4,22 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const menuItem = <>
         <li className="flex">
-            <Link to="/" rel="noopener noreferrer" href="#banner" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Home</Link>
+            <Link to="/" rel="noopener noreferrer" href="" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Home</Link>
         </li>
         <li className="flex">
-            <Link to='/resume' rel="noopener noreferrer" href="#projects" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Resume</Link>
+            <a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Resume</a>
         </li>
         <li className="flex">
-            <a rel="noopener noreferrer" href="#skill" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Service</a>
+            <a rel="noopener noreferrer" href="#projects" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Service</a>
         </li>
         <li className="flex">
-            <a href="#aboutMe" rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Blog</a>
+            <a href="#blog" rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Blog</a>
         </li>
         <li className="flex">
-            <a rel="noopener noreferrer" href="#contact" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">About</a>
+            <a rel="noopener noreferrer" href="#aboutMe" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">About</a>
         </li>
     </>
- 
+
     return (
         <header className="sm:py-4 py-2  bg-[#f0f2f5]  ">
             <div className=" flex items-center justify-around w-5/6 mx-auto ">
@@ -43,12 +43,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='hidden sm:flex items-center '>
-                    <Link>
+                    <a target="blank" href="https://drive.google.com/file/d/1wkQnSS56ozIurNP5dMC2HXUHiH41JMOi/view?usp=share_link">
                         <button
-                            className=' sm:px-8 px-4 md:py-2 py-1 rounded-md  bg-[#2978CB] text-white font-serif'>
-                            Contact
+                            className="bg-[#2978CB] hover:bg-green-800 py-3 w-56  sm:mt-4 mt-2 text-xl text-white rounded-lg  ">
+                            Resume
                         </button>
-                    </Link>
+                    </a>
+
                 </div>
                 <div className=''>
                     <div className='dropdown '>

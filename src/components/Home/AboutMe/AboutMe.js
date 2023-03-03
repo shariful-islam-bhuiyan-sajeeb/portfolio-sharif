@@ -36,7 +36,7 @@ const AboutMe = () => {
                             href="https://drive.google.com/u/0/uc?id=18Ka8HRYrQoNZj5PelF9_w-Rerwd8f0R1&export=download"
                             download="download resume.pdf">
                             <button
-                                className="bg-[#2978CB] py-3 w-64 sm:mt-4 mt-2 text-xl text-white rounded-lg  ">
+                                className="bg-[#2978CB] hover:bg-green-800 py-3 w-64 sm:mt-4 mt-2 text-xl text-white rounded-lg  ">
                                 Download Resume
                             </button>
                         </a>
