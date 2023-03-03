@@ -2,8 +2,6 @@ import React, { useEffect } from 'react';
 import './projectCard.css'
 import phone from '../../../../asset/mobile phone.jfif'
 import programming from '../../../../asset/programming.webp'
-import quiz from '../../../../asset/quiz.jpg'
-import { HiArrowRight } from "react-icons/hi2";
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 import PhoneStoreDetails from '../../PhoneStoreDetails/PhoneStoreDetails'
@@ -47,14 +45,14 @@ const ProjectsCard = () => {
                             <a target="blank"
                                 href="https://daylight-news-withteam.web.app/">
                                 <h2
-                                    className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB]'>
+                                    className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
                                     Live Project
                                 </h2>
                             </a>
                         </div>
                         <div className=''>
                             <label htmlFor="quiz-modal"
-                                className=" flex items-center justify-center text-xl text-center  font-semibold  py-2 px-4 rounded-lg bg-[#2978CB]">
+                                className=" flex items-center justify-center text-xl text-center  font-semibold  py-2 px-4 rounded-lg bg-[#2978CB] hover:bg-green-600">
                                 Details
                             </label>
 
@@ -86,14 +84,14 @@ const ProjectsCard = () => {
                             <a target="blank"
                                 href="https://assignment-12-34bee.web.app/">
                                 <h2
-                                    className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB]'>
+                                    className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
                                     Live Project
                                 </h2>
                             </a>
                         </div>
                         <div className=''>
                             <label htmlFor="phone-store-modal"
-                                className=" flex items-center justify-center text-xl text-center  font-semibold  py-2 px-4 rounded-lg bg-[#2978CB]">
+                                className=" flex items-center justify-center text-xl text-center  font-semibold  py-2 px-4 rounded-lg bg-[#2978CB] hover:bg-green-600">
                                 Details
                             </label>
 
@@ -128,14 +126,14 @@ const ProjectsCard = () => {
                                 <a target="blank"
                                     href="https://assignment-10-cline-projects.web.app/">
                                     <h2
-                                        className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB]'>
+                                        className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
                                         Live Project
                                     </h2>
                                 </a>
                             </div>
                             <div>
                                 <label htmlFor="web-programming-modal"
-                                    className=" flex items-center justify-center text-xl text-center  font-semibold  py-2 px-4 rounded-lg bg-[#2978CB]">
+                                    className=" flex items-center justify-center text-xl text-center  font-semibold  py-2 px-4 rounded-lg bg-[#2978CB] hover:bg-green-600">
                                     Details
                                 </label>
                             </div>
@@ -145,7 +143,8 @@ const ProjectsCard = () => {
                
                 <PhoneStoreDetails></PhoneStoreDetails>
                 <ProgrammingModal></ProgrammingModal>
-                <SchoolModal></SchoolModal> 
+                <SchoolModal></SchoolModal>  
+                {/* Daylight news project add kora hoise (school modal section a) */}
             </div>
 
         </div>
@@ -153,5 +152,3 @@ const ProjectsCard = () => {
 };
 
 export default ProjectsCard;
-
-// htmlFor = "quiz-modal"
