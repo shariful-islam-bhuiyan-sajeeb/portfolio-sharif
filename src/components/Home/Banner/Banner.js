@@ -15,10 +15,12 @@ const Banner = () => {
                     backgroundImage: `url(https://i.ibb.co/zbs3gwD/Group-31-1.png)`
                 }}
                     className="flex items-center justify-center sm:px-0 px-4 ">
-                    <img
-                        className=" flex justify-center items-center text-center rounded-lg sm:w-full  lg:h-[550px] md:h-[450px] mx-auto ease-in-out duration-500 transform hover:scale-125"
-                        src="https://i.ibb.co/zrbj47J/s-1-removebg-preview-1.png"
-                        alt="" />
+                   <div className='overflow-hidden'>
+                        <img
+                            className=" flex justify-center items-center text-center rounded-lg sm:w-full  lg:h-[550px] md:h-[450px] mx-auto ease-in-out duration-500 transform hover:scale-125"
+                            src="https://i.ibb.co/zrbj47J/s-1-removebg-preview-1.png"
+                            alt="" />
+                   </div>
                 </div>
                 <div className=" md:text-left  lg:w-3/5 w-full mx-auto lg:pt-6 pt-2 lg:mt-16 md:mt-8 mt-5 md:text-block">
                     <div className=' flex flex-col w-11/12 mx-auto font-serif space-y-2'>
