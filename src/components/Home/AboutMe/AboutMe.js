@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000"
-                    className="lg:w-1/3 sm:w-96 w-80 mx-auto rounded-md shadow-xl ease-in-out duration-500 transform hover:scale-125">
+                    className="lg:w-1/3 sm:w-96 w-80 mx-auto sm:px-0 px-3 rounded-md shadow-xl ease-in-out duration-500 transform hover:scale-125">
                     <img src='https://i.ibb.co/Q9zZtvY/sojib11111.jpg' alt="" className="object-cover object-center w-full mx-auto " />
                 </div>
                 <div className=" relative flex flex-col items-start md:w-2/3 w-full  md:px-8 px-4 md:mt-6 sm:mt-4 mt-2 space-y-2 md:text-block font-serif ">

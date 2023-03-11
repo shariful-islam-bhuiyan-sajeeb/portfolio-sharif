@@ -11,7 +11,7 @@ const Contact = () => {
                 <p className='h-[2px] md:w-[220px] sm:[180px] w-[100px] bg-[#2978CB] mx-auto'></p>
             </div>
 
-            <fieldset className=" md:mt-8 sm:mt-6 mt-4 hover:border hover:border-blue-600 translate rounded-lg py-4  mx-auto ">
+            <fieldset className=" md:mt-8 sm:mt-6 mt-4 hover:border hover:border-blue-600 translate rounded-lg py-4 mx-auto hover:shadow-lg hover:shadow-[#2978CB] ">
                 <div className=' lg:w-10/12 md:w-11/12 mx-auto'>
                     <div className=" sm:col-span-full md:px-2 px-6 lg:col-span-3">
                         <div className=" col-span-full sm:col-span-3 w-full mx-auto ">

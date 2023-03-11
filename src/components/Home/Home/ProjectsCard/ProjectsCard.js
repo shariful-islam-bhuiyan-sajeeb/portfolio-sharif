@@ -18,16 +18,16 @@ const ProjectsCard = () => {
 
     return (
         <div className=''>
-            <div className="gap-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+            <div className="sm:gap-x-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
 
                 {/* -------------------------Daylight news project -1--------------- */}
 
-                <div data-aos="flip-right"
-                    className=" animation3 px-6 py-4  rounded-lg border">
+                <div data-aos="flip-right "
+                    className=" animation3 px-6 py-4   rounded-lg border shadow-lg shadow-[#2978CB]">
                     <div className="space-y-2">
                         <PhotoProvider>
                             <PhotoView src={phone} >
-                                <img src="https://i.ibb.co/7RPtq44/screenshot.png" alt="" className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
+                                <img src="https://i.ibb.co/7RPtq44/screenshot.png" alt="" className="block object-cover object-center w-full sm:h-72 h-full rounded-md  dark:bg-gray-500" />
                             </PhotoView>
                         </PhotoProvider>
 
@@ -45,8 +45,9 @@ const ProjectsCard = () => {
                             <a target="blank"
                                 href="https://daylight-news-withteam.web.app/">
                                 <h2
-                                    className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
-                                    Live Project
+                                    className='flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold  py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M13 3L16.293 6.293 9.293 13.293 10.707 14.707 17.707 7.707 21 11 21 3z"></path><path d="M19,19H5V5h7l-2-2H5C3.897,3,3,3.897,3,5v14c0,1.103,0.897,2,2,2h14c1.103,0,2-0.897,2-2v-5l-2-2V19z"></path></svg>
+                                    <span>View Project</span>
                                 </h2>
                             </a>
                         </div>
@@ -62,11 +63,12 @@ const ProjectsCard = () => {
 
                 {/*---------------phone store project-2 ----------------------- */}
                 <div data-aos="flip-right"
-                    className=" animation3 px-6 py-4  rounded-lg border">
+                    className=" animation3 px-6 py-4 sm:my-0 my-8  rounded-lg border shadow-lg shadow-[#2978CB]">
                     <div className="space-y-2">
                         <PhotoProvider>
                             <PhotoView src={phone} >
-                                <img src={phone} alt="" className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
+                                <img src={phone} alt="" 
+                                    className="block object-cover object-center w-full sm:h-72 h-full rounded-md dark:bg-gray-500" />
                             </PhotoView>
                         </PhotoProvider>
 
@@ -84,8 +86,9 @@ const ProjectsCard = () => {
                             <a target="blank"
                                 href="https://assignment-12-34bee.web.app/">
                                 <h2
-                                    className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
-                                    Live Project
+                                    className='flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M13 3L16.293 6.293 9.293 13.293 10.707 14.707 17.707 7.707 21 11 21 3z"></path><path d="M19,19H5V5h7l-2-2H5C3.897,3,3,3.897,3,5v14c0,1.103,0.897,2,2,2h14c1.103,0,2-0.897,2-2v-5l-2-2V19z"></path></svg>
+                                    <span>View Project</span>
                                 </h2>
                             </a>
                         </div>
@@ -101,11 +104,12 @@ const ProjectsCard = () => {
                 {/*------------------------web programming project -3 ----------------*/}
                 <div data-aos="fade-up "
                     data-aos-duration="3000"
-                    className="animation3 px-6 py-4 shadow-2xl rounded-lg border-2">
+                    className="animation3 px-6 py-4  rounded-lg border-2 shadow-lg shadow-[#2978CB]">
                     <div className="space-y-2">
                         <PhotoProvider>
                             <PhotoView src={programming} >
-                                <img src={programming} alt="" className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
+                                <img src={programming} alt="" 
+                                    className="block object-cover object-center w-full sm:h-72 h-full rounded-md  dark:bg-gray-500" />
                             </PhotoView>
                         </PhotoProvider>
 
@@ -126,8 +130,9 @@ const ProjectsCard = () => {
                                 <a target="blank"
                                     href="https://assignment-10-cline-projects.web.app/">
                                     <h2
-                                        className='text-xl font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
-                                        Live Project
+                                        className='flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600'>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M13 3L16.293 6.293 9.293 13.293 10.707 14.707 17.707 7.707 21 11 21 3z"></path><path d="M19,19H5V5h7l-2-2H5C3.897,3,3,3.897,3,5v14c0,1.103,0.897,2,2,2h14c1.103,0,2-0.897,2-2v-5l-2-2V19z"></path></svg>
+                                        <span>View Project</span>
                                     </h2>
                                 </a>
                             </div>

@@ -11,7 +11,7 @@ const BlogCard = ({ blog }) => {
                         <img className='lg:h-[280px] h-auto w-full rounded-t-lg ease-in-out duration-500 transform hover:scale-125  ' src={img} alt="" />
                     </div>
                     <div className=" px-2">
-                        <h2 className="card-title font-serif text-2xl font-semibold">
+                        <h2 className="card-title font-serif sm:text-2xl text-lg font-semibold">
                             {title}
                         </h2>
                         <div className='space-y-1'>
