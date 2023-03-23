@@ -9,23 +9,24 @@ import Typewriter from "typewriter-effect";
 const Banner = () => {
   return (
     <section id="banner" className=" md:mt-8 mt-4">
-      <div className="container relative  flex flex-col md:flex-row md:w-full mx-auto  ">
+      <div className="container relative lg:gap-x-8 md:gap-x-4 sm:gap-x-2 gap-x-0  flex flex-col sm:flex-row md:w-full mx-auto  ">
         <div
           style={{
             backgroundImage: `url(https://i.ibb.co/zbs3gwD/Group-31-1.png)`,
+            weight: "10px",
           }}
-          className="flex items-center justify-center sm:px-0 px-4 "
+          className="flex  items-center justify-center md:w-1/3 sm:w-96 w-full mx-auto sm:px-0 px-4 "
         >
           <div className="overflow-hidden">
             <img
-              className=" flex justify-center items-center text-center rounded-x-lg rounded-t-lg sm:w-full    mx-auto ease-in-out duration-500 transform hover:scale-125"
+              className=" flex justify-center items-center text-center rounded-x-lg rounded-t-lg  w-full  mx-auto ease-in-out duration-500 transform hover:scale-125"
               src="https://i.ibb.co/zrbj47J/s-1-removebg-preview-1.png"
               alt=""
             />
           </div>
         </div>
-        <div className=" md:text-left  lg:w-3/5 w-full mx-auto lg:pt-6 pt-0 lg:mt-16 md:mt-8 mt-5 md:text-block">
-          <div className=" flex flex-col w-11/12 mx-auto font-serif space-y-2">
+        <div className="flex items-end lg:mb-6 md:mb-4 md:mt-0 mt-4 md:w-4/6 w-full mx-auto md:text-block">
+          <div className=" flex flex-col  mx-auto font-serif space-y-2">
             <div>
               <div className=" lg:px-0  sm:space-y-2 ">
                 <h2 className=" sm:text-2xl text-xl text-black fond-semibold leading-none ">

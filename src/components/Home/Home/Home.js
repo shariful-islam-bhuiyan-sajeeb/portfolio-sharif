@@ -6,6 +6,7 @@ import Blog from "../Blog";
 import Contact from "../Contact/Contact";
 import Hobbyist from "../Hobbyist/Hobbyist";
 import ProfessionalSkill from "../ProfessionalSkill/ProfessionalSkill";
+import Skill from "../ProfessionalSkill/Skill";
 import Projects from "../Projects/Projects";
 import Testimonial from "../Testimonial/Testimonial";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <AbouteMe></AbouteMe>
       <Projects></Projects>
       <ProfessionalSkill></ProfessionalSkill>
+      {/* <Skill /> */}
       <AboutMe></AboutMe>
       <Testimonial />
       <Blog />
