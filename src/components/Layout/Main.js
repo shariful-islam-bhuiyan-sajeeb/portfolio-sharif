@@ -1,14 +1,15 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Footer from "../Shered/Footer/Footer";
+import Drawer from "../Drawer/Drawer";
 import Navbar from "../Shered/Navbar/Navbar";
 
 const Main = () => {
   return (
     <div>
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      <Footer></Footer>
+      {/* <Navbar></Navbar> */}
+      {/* <Outlet></Outlet> */}
+      <Drawer />
+      {/* <Footer></Footer> */}
     </div>
   );
 };

@@ -16,7 +16,7 @@ const ProjectsCard = () => {
 
   return (
     <div className="">
-      <div className="sm:gap-x-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+      <div className="sm:gap-x-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full mx-auto">
         {/* -------------------------Daylight news project -1--------------- */}
 
         <div
@@ -49,7 +49,7 @@ const ProjectsCard = () => {
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 24 24"
                     height="1em"
                     width="1em"
@@ -75,8 +75,8 @@ const ProjectsCard = () => {
 
         {/*---------------phone store project-2 ----------------------- */}
         <div
-          data-aos="flip-right"
-          className=" animation3 px-6 py-4 sm:my-0 my-8  rounded-lg border shadow-lg shadow-[#2978CB]"
+          // data-aos="flip-right"
+          className=" animation3 px-6 py-4 sm:my-0 my-8   rounded-lg border shadow-lg shadow-[#2978CB]"
         >
           <div className="space-y-2">
             <PhotoProvider>
@@ -108,7 +108,7 @@ const ProjectsCard = () => {
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 24 24"
                     height="1em"
                     width="1em"
@@ -133,8 +133,8 @@ const ProjectsCard = () => {
         </div>
         {/*------------------------web programming project -3 ----------------*/}
         <div
-          data-aos="fade-up "
-          data-aos-duration="3000"
+          // data-aos="fade-up "
+          // data-aos-duration="3000"
           className="animation3 px-6 py-4  rounded-lg border-2 shadow-lg shadow-[#2978CB]"
         >
           <div className="space-y-2">
@@ -171,7 +171,7 @@ const ProjectsCard = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"

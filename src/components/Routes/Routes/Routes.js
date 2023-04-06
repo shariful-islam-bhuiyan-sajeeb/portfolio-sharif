@@ -1,27 +1,22 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../../Home/Home/Home";
-import PhoneStoreDetails from "../../Home/PhoneStoreDetails/PhoneStoreDetails";
-import Skill from "../../Home/ProfessionalSkill/Skill";
-import Resume from "../../Home/Resume/Resume";
 import Main from "../../Layout/Main";
+import Home from "../../Home/Home/Home";
+import Loader from "../../Animation/Loader";
+import ErrorPage from "../../Error page/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
-        element: <Home></Home>,
+        element: <Home />,
       },
-      {
-        path: "/resume",
-        element: <Resume />,
-      },
-      //   {
-      //     path: "/skill",
-      //     element: <Skill />,
-      //   },
     ],
   },
+  // <ParticlesBackgroun />,
+  // { path: "/loader", element: <Loader /> },
+  // { path: "/errorPage", element: <ErrorPage /> },
 ]);

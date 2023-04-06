@@ -13,34 +13,30 @@ const Banner = () => {
         <div
           style={{
             backgroundImage: `url(https://i.ibb.co/zbs3gwD/Group-31-1.png)`,
-            weight: "10px",
+            backgroundPosition: "center",
           }}
-          className="flex  items-center justify-center md:w-1/3 sm:w-96 w-full mx-auto sm:px-0 px-4 "
+          className="flex items-center justify-center md:w-1/3 w-full  mx-auto sm:px-0 px-4 "
         >
-          <div className="overflow-hidden">
+          <div className="overflow-hidden w-50">
             <img
-              className=" flex justify-center items-center text-center rounded-x-lg rounded-t-lg  w-full  mx-auto ease-in-out duration-500 transform hover:scale-125"
+              className=" flex justify-center items-center text-center sm:rounded-none rounded-b-lg   mx-auto"
               src="https://i.ibb.co/zrbj47J/s-1-removebg-preview-1.png"
               alt=""
             />
           </div>
         </div>
-        <div className="flex items-end lg:mb-6 md:mb-4 md:mt-0 mt-4 md:w-4/6 w-full mx-auto md:text-block">
+        <div className="flex sm:items-end items-center justify-start sm:px-0 px-4 lg:mb-6 md:mb-4 md:mt-0 mt-4 md:w-4/6 md:text-block">
           <div className=" flex flex-col  mx-auto font-serif space-y-2">
             <div>
               <div className=" lg:px-0  sm:space-y-2 ">
                 <h2 className=" sm:text-2xl text-xl text-black fond-semibold leading-none ">
                   Hi there!
                 </h2>
-                <div className="xl:text-4xl lg:text-2xl text-lg font-bold">
-                  <p className="flex items-center sm:gap-x-4 gap-x-1">
-                    I am
-                    <span className="text-[#2978CB]">
-                      Shariful Islam Bhuiyan
-                    </span>
-                  </p>
-                </div>
-                <h1 className="lg:text-2xl text-lg font-bold">
+                <p className="flex items-center xl:text-4xl lg:text-2xl text-lg font-semibold font-serif gap-x-1 ">
+                  I'm Shariful Islam Bhuiyan
+                </p>
+                {/* animation text */}
+                <h1 className="lg:text-2xl sm:text-xl text-lg sm:font-semibold font-normal">
                   <span className="text-[#2978CB]">
                     <Typewriter
                       options={{
@@ -58,14 +54,13 @@ const Banner = () => {
               <p className="mt-4 text-xl lg:pb-4 hidden md:block text-justify ">
                 Hi! I'm Shariful Islam Bhuiyan, a passionate full-stack
                 developer. I develop websites using MERN technology. I literally
-                spend 8-10 hours every day on Programming and Problem Solving.{" "}
-                <span className="hidden lg:inline">
-                  Programming is my love and passionate. My core skill is based
-                  on JavaScript and I love to do most of the things using
-                  JavaScript. I love to make the web more open to the world.
-                </span>
+                spend 8-10 hours every day on Programming and Problem Solving.
+                Programming is my love and passionate. My core skill is based on
+                JavaScript and I love to do most of the things using JavaScript.
+                I love to make the web more open to the world.
+                <span className="hidden lg:flex animate-none"></span>
               </p>
-              <div className="flex   md:gap-8 gap-4 w-full mx-auto">
+              <div className="flex   md:gap-x-8 gap-x-4 w-full mx-auto">
                 <div>
                   <h2 className="sm:text-xl text-md text-center font-bold  text-[#2978CB] ">
                     Find With Me

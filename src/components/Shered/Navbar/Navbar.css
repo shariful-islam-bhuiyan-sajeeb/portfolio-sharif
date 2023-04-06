@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+.google-front {
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar {
+  background-color: aliceblue;
+}
+
+.navbar.active {
+  background-color: rgb(141, 97, 43);
+}
