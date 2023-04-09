@@ -16,6 +16,7 @@ export const router = createBrowserRouter([
       },
     ],
   },
+  // { path: "/preloader", element: <PreLoader /> },
   // <ParticlesBackgroun />,
   // { path: "/loader", element: <Loader /> },
   // { path: "/errorPage", element: <ErrorPage /> },

@@ -7,7 +7,7 @@ const AbouteMe = () => {
       <Outlet />
       <div className="space-y-2">
         <h2 className="text-3xl font-semibold text-white text-center">
-          Aboute Me
+          About Me
         </h2>
         <div className="text-lg md:w-3/4 w-11/12  mx-auto text-gray-200 text-justify">
           <p>

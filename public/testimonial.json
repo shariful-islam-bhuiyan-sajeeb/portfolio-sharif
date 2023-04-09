@@ -1,30 +1,30 @@
 [
-    {
-        "_id": 1,
-        "title": "Web Design",
-        "picture": "https://i.ibb.co/TRdh8pQ/desktop-comments-desktop-icon-white-png-transparent-png-980x568-free-download-on-nicepng-removebg-pr.png",
-        "category": "testimonial",
-        "description": "growing number of schools across the UK are bringing dogs into the classroom to support learning, particularly reading. Yes, dogs!  In fact as early as 1999 an American."
-    },
-    {
-        "_id": 2,
-        "title": "Web Development",
-        "picture": "https://i.ibb.co/2sdgydz/web-development-removebg-preview.png",
-        "category": "testimonial",
-        "description": "growing number of schools across the UK are bringing dogs into the classroom to support learning, particularly reading. Yes, dogs!  In fact as early as 1999 an American organization called."
-    },
-    {
-        "_id": 3,
-        "title": "Photography",
-        "picture": "https://i.ibb.co/60D78Fw/camera-removebg-preview.png",
-        "category": "testimonial",
-        "description": "growing number of schools across the UK are bringing dogs into the classroom to support learning, particularly reading. Yes, dogs!  In fact as early as 1999 an American organization."
-    },
-    {
-        "_id": 3,
-        "title": "Online Support",
-        "picture": "https://i.ibb.co/vjTDq1R/friendship-removebg-preview.png",
-        "category": "testimonial",
-        "description": "growing number of schools across the UK are bringing dogs into the classroom to support learning, particularly reading. Yes, dogs!  In fact as early as 1999 an American organization."
-    }
+  {
+    "_id": 1,
+    "title": "Web Design",
+    "picture": "https://i.ibb.co/TRdh8pQ/desktop-comments-desktop-icon-white-png-transparent-png-980x568-free-download-on-nicepng-removebg-pr.png",
+    "category": "testimonial",
+    "description": "Web design is the process of creating a website's visual layout and user interface to deliver a positive user experience. A well-designed website should have a simple and clean layout, clear navigation."
+  },
+  {
+    "_id": 2,
+    "title": "Web Development",
+    "picture": "https://i.ibb.co/2sdgydz/web-development-removebg-preview.png",
+    "category": "testimonial",
+    "description": "Developed website or application should be fast, efficient, user-friendly, and scalable to accommodate future growth. The goal of web development is to create digital products that meet the needs of users and clients."
+  },
+  {
+    "_id": 3,
+    "title": "Photography",
+    "picture": "https://i.ibb.co/60D78Fw/camera-removebg-preview.png",
+    "category": "testimonial",
+    "description": "Photography is the art and practice of capturing and producing high-quality images using a camera. It involves a range of techniques, including selecting the right equipment."
+  },
+  {
+    "_id": 3,
+    "title": "Online Support",
+    "picture": "https://i.ibb.co/vjTDq1R/friendship-removebg-preview.png",
+    "category": "testimonial",
+    "description": "An online support system is a digital platform that provides users with assistance and guidance on a specific product or service. It is designed to address the needs of customers and provide."
+  }
 ]

@@ -15,12 +15,13 @@ const Home = () => {
     <div className=" sm:max-w-[1440px] w-full mx-auto">
       <Banner></Banner>
       <AbouteMe></AbouteMe>
-      <Projects></Projects>
-      <ProfessionalSkill></ProfessionalSkill>
+      <Hobbyist />
       <AboutMe></AboutMe>
+
+      <ProfessionalSkill></ProfessionalSkill>
+      <Projects></Projects>
       <Testimonial />
       <Blog />
-      <Hobbyist />
       <Contact />
       {/* <GoToTop /> */}
     </div>

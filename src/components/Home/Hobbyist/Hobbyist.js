@@ -20,7 +20,7 @@ const Hobbyist = () => {
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
         {hobbyist.map((data) => (
-          <div className="w-full border-full border-b border-x hover:border-blue-600">
+          <div className="w-full border-full border-b border-x hover:bg-blue-300 duration-500">
             <div key={data._id} className="md:p-4 p-2">
               <div className=" flex flex-col justify-center items-center w-60 mx-auto p-0">
                 <img
@@ -29,11 +29,11 @@ const Hobbyist = () => {
                   className="rounded-xl w-[150px] h-[150px] text-blue-700 "
                 />
               </div>
-              <div className="flex flex-col justify-center items-center sm:mt-4 mt-0 ">
-                <h2 className="card-title sm:mb-2 mb-0 sm:text-2xl text-lg text-[#2978CB]">
+              <div className="flex flex-col justify-center items-center sm:mt-4 mt-0 text-black">
+                <h2 className="card-title sm:mb-2 mb-0 sm:text-2xl text-lg  ">
                   {data.title}
                 </h2>
-                <p>{data.description}</p>
+                <p className="font-semibold">{data.description}</p>
               </div>
             </div>
           </div>
