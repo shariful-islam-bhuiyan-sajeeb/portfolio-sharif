@@ -52,12 +52,31 @@ const AboutMe = () => {
           </div>
           <div className="text-center">
             <a
-              href="https://drive.google.com/u/0/uc?id=18Ka8HRYrQoNZj5PelF9_w-Rerwd8f0R1&export=download"
+              target="blank"
+              href="https://drive.google.com/file/d/1HNtNdfy92toti_TZv8iVyQjlpje7vAE3/view?usp=sharing"
               download="download resume.pdf"
+              class="relative inline-flex items-center lg:px-12 px-6 md:py-3 py-2 overflow-hidden sm:text-lg text-sm font-medium text-indigo-600 border-2 border-[#2978CB] rounded-full hover:text-white group hover:bg-gray-50"
             >
-              <button className="bg-[#2978CB] hover:bg-green-800 py-3 w-64 sm:mt-4 mt-2 text-xl text-white rounded-lg  ">
+              <span class="absolute left-0 block w-full h-0 transition-all bg-[#2978CB] opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+              <span class="absolute right-0 flex items-center justify-start sm:w-10 w-6 sm:h-10 h-4 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </span>
+              <span class="relative sm:text-lg text-sm font-serif">
                 Download Resume
-              </button>
+              </span>
             </a>
           </div>
         </div>

@@ -9,6 +9,7 @@ import ProfessionalSkill from "../ProfessionalSkill/ProfessionalSkill";
 import Projects from "../Projects/Projects";
 import Testimonial from "../Testimonial/Testimonial";
 import GoToTop from "../../Animation/GoToTop";
+import Timeline from "../Timeline/Timeline";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
       <AbouteMe></AbouteMe>
       <Hobbyist />
       <AboutMe></AboutMe>
-
+      <Timeline />
       <ProfessionalSkill></ProfessionalSkill>
       <Projects></Projects>
       <Testimonial />

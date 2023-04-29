@@ -3,6 +3,7 @@ import Main from "../../Layout/Main";
 import Home from "../../Home/Home/Home";
 import Loader from "../../Animation/Loader";
 import ErrorPage from "../../Error page/ErrorPage";
+import Timeline from "../../Home/Timeline/Timeline";
 
 export const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      // {
+      //   path: "/timeline",
+      //   element: <Timeline />,
+      // },
     ],
   },
   // { path: "/preloader", element: <PreLoader /> },

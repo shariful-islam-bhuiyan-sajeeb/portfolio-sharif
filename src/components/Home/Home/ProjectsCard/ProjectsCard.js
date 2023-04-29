@@ -19,10 +19,7 @@ const ProjectsCard = () => {
       <div className="sm:gap-x-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full mx-auto">
         {/* -------------------------Daylight news project -1--------------- */}
 
-        <div
-          data-aos="flip-right "
-          className=" animation3 px-6 py-4   rounded-lg border shadow-lg shadow-[#2978CB]"
-        >
+        <div className=" animation3 px-6 py-4   rounded-lg border shadow-lg shadow-[#2978CB]">
           <div className="space-y-2">
             <PhotoProvider>
               <PhotoView src={phone}>
@@ -38,14 +35,14 @@ const ProjectsCard = () => {
               <p className="font-semibold">Full stack website</p>
             </div>
           </div>
-          <div className=" font-serif pb-4">
+          <div className=" font-serif pb-2">
             <h3 className="text-2xl font-semibold text-black">DayLight News</h3>
             <p className="text-gray-400">Team Work Project</p>
           </div>
           <div className=" flex sm:flex-row flex-col justify-between md:space-y-0 space-y-2  py-4 font-serif">
-            <div>
+            <div className="">
               <a target="blank" href="https://daylight-news-withteam.web.app/">
-                <h2 className="flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold  py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600">
+                <h2 className="flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold  py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600  ">
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -93,7 +90,7 @@ const ProjectsCard = () => {
               <p className="font-semibold">Full stack website</p>
             </div>
           </div>
-          <div className=" py-4">
+          <div className=" py-2">
             <a rel="noopener noreferrer" href="#" className="block">
               <h3 className="text-2xl font-semibold text-black font-serif">
                 Phone Store shop
@@ -104,7 +101,7 @@ const ProjectsCard = () => {
           <div className=" flex sm:flex-row flex-col justify-between md:space-y-0 space-y-2  py-4 font-serif">
             <div>
               <a target="blank" href="https://sage-manatee-709895.netlify.app/">
-                <h2 className="flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600">
+                <h2 className="flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600 translate-all">
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
