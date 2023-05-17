@@ -7,7 +7,7 @@ const Timeline = () => {
       <section className="">
         <header
           style={{ fontFamily: "Castoro Titling", fontWeight: "900" }}
-          className=" md:text-3xl text-2xl md:my-4 sm:my-3 my-2 xl:ml-12 lg:ml-10 sm:ml-3 ml-2 px-2 font-serif"
+          className=" md:text-3xl text-2xl md:my-4 sm:my-3 my-2 xl:ml-12 lg:ml-10 sm:ml-3 ml-2 px-2 text-[#1f79d8] font-serif"
         >
           <h2>Education</h2>
         </header>
@@ -91,7 +91,7 @@ const Timeline = () => {
       <section className="sm:mt-0 mt-10">
         <header
           style={{ fontFamily: "Castoro Titling", fontWeight: "900" }}
-          className=" md:text-3xl text-2xl  xl:ml-14 lg:ml-10 md:ml-6 sm:ml-4 ml-6 px-2   sm:text-left text-center"
+          className=" md:text-3xl text-2xl  xl:ml-14 lg:ml-10 md:ml-6 sm:ml-4 ml-6 px-2   sm:text-left text-[#1f79d8] text-center"
         >
           <h2>Experience</h2>
         </header>

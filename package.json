@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@coreui/react": "^4.5.2",
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.10.17",
@@ -15,8 +16,8 @@
     "daisyui": "^2.43.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
     "react-icons": "^4.7.1",
-    "react-particles-js": "^3.6.0",
     "react-photo-view": "^1.2.3",
     "react-router-dom": "^6.4.5",
     "react-scripts": "5.0.1",

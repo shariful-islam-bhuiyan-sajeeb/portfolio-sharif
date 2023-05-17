@@ -2,7 +2,6 @@ import React from "react";
 import { ImFacebook } from "react-icons/im";
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import ScrollToTop from "react-scroll-to-top";
 
 const Footer = () => {
   const footerItem = (
