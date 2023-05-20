@@ -8,8 +8,8 @@ import Hobbyist from "../Hobbyist/Hobbyist";
 import ProfessionalSkill from "../ProfessionalSkill/ProfessionalSkill";
 import Projects from "../Projects/Projects";
 import Testimonial from "../Testimonial/Testimonial";
-import GoToTop from "../../Animation/GoToTop";
 import Timeline from "../Timeline/Timeline";
+import Map from "../Map";
 
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
       <Testimonial />
       <Blog />
       <Contact />
-      {/* <GoToTop /> */}
+      <Map />
     </div>
   );
 };
