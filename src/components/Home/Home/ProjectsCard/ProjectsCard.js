@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./projectCard.css";
 import phone from "../../../../asset/mobile phone.jfif";
-import programming from "../../../../asset/programming.webp";
+import programming from "../../../../asset/programming.png";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import PhoneStoreDetails from "../../PhoneStoreDetails/PhoneStoreDetails";
@@ -129,11 +129,7 @@ const ProjectsCard = () => {
           </div>
         </div>
         {/*------------------------web programming project -3 ----------------*/}
-        <div
-          // data-aos="fade-up "
-          // data-aos-duration="3000"
-          className="animation3 px-6 py-4  rounded-lg border-2 shadow-lg shadow-[#2978CB]"
-        >
+        <div className="animation3 px-6 py-4  rounded-lg border-2 shadow-lg shadow-[#2978CB]">
           <div className="space-y-2">
             <PhotoProvider>
               <PhotoView src={programming}>
@@ -146,15 +142,16 @@ const ProjectsCard = () => {
             </PhotoProvider>
 
             <div className="flex items-center text-gray-400 text-xs">
-              <p className="font-semibold">Full stack website</p>
+              <p className="font-semibold">GPAS Scrolling website</p>
             </div>
           </div>
           <div>
             <div className="py-4">
               <a rel="noopener noreferrer" href="#" className="block">
                 <h3 className="text-2xl font-bold text-black">
-                  Web Programming
+                  Scroll Trigger GPAS
                 </h3>
+                <p className="text-gray-400 font-serif">Scrolling design</p>
               </a>
             </div>
 
@@ -162,7 +159,7 @@ const ProjectsCard = () => {
               <div>
                 <a
                   target="blank"
-                  href="https://assignment-10-cline-projects.web.app/"
+                  href="https://scroll-trigger-gpas-website.vercel.app/"
                 >
                   <h2 className="flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600">
                     <svg
