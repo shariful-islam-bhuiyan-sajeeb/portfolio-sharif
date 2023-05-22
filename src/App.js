@@ -25,7 +25,7 @@ function App() {
           <RouterProvider router={router}> </RouterProvider>
         )}
       </div>
-      <div className="absolute lg:right-8 md:right-5 sm:right-3 right-2  xl:bottom-52 lg:bottom-48 bottom-40 hidden md:flex">
+      <div className="absolute 2xl:right-8 xl:right-6 lg:right-5 md:right-4 sm:right-3 right-2  xl:bottom-52 lg:bottom-48 bottom-40 hidden md:flex">
         <label>
           <a href="#contact" className=" flex flex-col items-center space-y-2">
             <img
