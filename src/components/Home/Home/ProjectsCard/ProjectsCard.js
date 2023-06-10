@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./projectCard.css";
-import phone from "../../../../asset/mobile phone.jfif";
-import programming from "../../../../asset/programming.png";
+import phone from "../../../../asset/mobile phone.png";
+import programming from "../../../../asset/programming.jpg";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import PhoneStoreDetails from "../../PhoneStoreDetails/PhoneStoreDetails";
@@ -141,17 +141,21 @@ const ProjectsCard = () => {
               </PhotoView>
             </PhotoProvider>
 
-            <div className="flex items-center text-gray-400 text-xs">
-              <p className="font-semibold">GPAS Scrolling website</p>
+            <div className="flex items-center text-gray-400  text-xs">
+              <p className="font-semibold font-serif">
+                MERN Stack & React Frontend
+              </p>
             </div>
           </div>
           <div>
-            <div className="py-4">
+            <div className="py-2">
               <a rel="noopener noreferrer" href="#" className="block">
-                <h3 className="text-2xl font-bold text-black">
-                  Scroll Trigger GPAS
+                <h3 className="lg:text-2xl text-xl font-bold text-black">
+                  Travel Photographer
                 </h3>
-                <p className="text-gray-400 font-serif">Scrolling design</p>
+                <p className="text-sm text-gray-400 font-serif">
+                  MERN Stack Ecommerce website
+                </p>
               </a>
             </div>
 

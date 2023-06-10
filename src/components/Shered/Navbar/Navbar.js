@@ -53,13 +53,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className=" sticky z-50 top-0 ">
+    <div className=" sticky z-50 top-0 left-0 right-0 ">
       <div
         className={`navbar justify-between   ${
           navbar ? "bg-slate-300 shadow" : "bg-transparent"
         }`}
       >
-        <nav className=" relative w-full sm:py-4 max-w-screen-full mx-auto   flex justify-center ">
+        <nav className=" relative w-full sm:py-4 py-2 max-w-screen-full mx-auto   flex justify-center ">
           <div className="  flex md:flex-row flex-col items-center lg:justify-around justify-between lg:px-0 md:px-4 px-0   ">
             {/* portfolio title  */}
             <div className="flex  items-center lg:mr-20 mr-4">

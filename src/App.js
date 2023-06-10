@@ -25,17 +25,20 @@ function App() {
           <RouterProvider router={router}> </RouterProvider>
         )}
       </div>
-      <div className="absolute 2xl:right-8 xl:right-6 lg:right-5 md:right-4 sm:right-3 right-2  xl:bottom-52 lg:bottom-48 bottom-40 hidden md:flex">
-        <label>
-          <a href="#contact" className=" flex flex-col items-center space-y-2">
+      <div className="absolute 2xl:right-5 xl:right-8 lg:right-5 md:right-4 sm:right-3 right-2  xl:bottom-12 lg:bottom-10 bottom-8 hidden md:flex">
+        <div className=" flex justify-end pr-4 w-full sticky bottom-10 ">
+          <a
+            className=""
+            href="https://wa.me/01791514345?text=Hi..."
+            target="_blank"
+          >
             <img
-              className="lg:w-20 sm:w-16 w-10 text-5xl"
-              src={message}
+              className="lg:w-16 w-10 rounded-full"
+              src="https://i.ibb.co/PDFPPGt/137642-whatsapp-hh.gif"
               alt=""
             />
-            <p className="xl:text-md text-sm">contact me</p>
           </a>
-        </label>
+        </div>
       </div>
     </div>
   );
