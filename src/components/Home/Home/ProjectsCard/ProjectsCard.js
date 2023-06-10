@@ -163,7 +163,7 @@ const ProjectsCard = () => {
               <div>
                 <a
                   target="blank"
-                  href="https://scroll-trigger-gpas-website.vercel.app/"
+                  href="https://travel-photographer-cline.vercel.app/"
                 >
                   <h2 className="flex items-center justify-center sm:gap-x-3 gap-x-1 sm:text-xl text-md font-semibold text-center py-2 px-4 w-full rounded-lg  bg-[#2978CB] hover:bg-green-600">
                     <svg

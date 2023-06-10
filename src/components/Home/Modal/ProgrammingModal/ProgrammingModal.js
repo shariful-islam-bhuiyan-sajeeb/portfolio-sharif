@@ -30,7 +30,7 @@ const ProgrammingModal = () => {
           <div className="text-center text-black w-full pb-4">
             <div className="flex flex-col space-y-4 items-center justify-center ">
               <h4 className=" xl:text-4xl lg:text-xl sm:text-lg font-semibold font-serif text-black ">
-                Scrolling Trigger GSAP website
+                Travel Photographer Website
               </h4>
               <div className="flex items-center">
                 <div className="h-[2px] xl:w-[150px] lg:w-[100px] md:w-[80px] sm:w-[70px] w-[60px] bg-blue-300 text-center"></div>
@@ -39,13 +39,13 @@ const ProgrammingModal = () => {
               </div>
             </div>
 
-            <div className="md:text-2xl text-lg sm:space-y-2 sm:mt-4 mt-2 font-serif md:text-center text-left ">
+            <div className="md:text-2xl text-lg sm:space-y-2 sm:mt-4 mt-2 font-serif md:text-center text-left w-8/12  mx-auto  ">
+              <p> 1.Beautiful Ui and responsive website</p>
               <p>
                 {" "}
-                1.This is a Scrolling website. Beautifully handled
-                responsiveness
+                3. Technology Used: Taiwind Css, React js,Firebase,Node
+                js,Express js, GPAS, AWO Slider, vercel.
               </p>
-              <p> 3. Technology Used: React js, GPAS, AWO Slider, vercel.</p>
             </div>
           </div>
 
@@ -53,7 +53,7 @@ const ProgrammingModal = () => {
             <div className="">
               <a
                 target="blank"
-                href="https://github.com/shariful-islam-bhuiyan-sajeeb/scroll-trigger-cline.git"
+                href="https://github.com/shariful-islam-bhuiyan-sajeeb/travel-photographer-cline-repo"
               >
                 <button className=" flex items-center gap-x-2 py-2 px-4 rounded-lg bg-[#2978CB] hover:bg-green-700">
                   <BsGithub className="text-white text-xl" />

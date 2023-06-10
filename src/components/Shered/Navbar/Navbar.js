@@ -53,7 +53,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className=" sticky z-50 top-0 left-0 right-0 ">
+    <div className=" fixed z-50 top-0 left-0 right-0 ">
       <div
         className={`navbar justify-between   ${
           navbar ? "bg-slate-300 shadow" : "bg-transparent"

@@ -30,7 +30,7 @@ function App() {
           <a
             className=""
             href="https://wa.me/01791514345?text=Hi..."
-            target="_blank"
+            target="blank"
           >
             <img
               className="lg:w-16 w-10 rounded-full"
