@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   return (
-    <section id="banner" className=" md:mt-8 mt-4">
+    <section id="banner" className=" lg:mt-32 md:mt-20 mt-16">
       <div className="container relative lg:gap-x-8 md:gap-x-4 sm:gap-x-2 gap-x-0  flex flex-col sm:flex-row md:w-full mx-auto  ">
         <div
           style={{
@@ -17,7 +17,7 @@ const Banner = () => {
           }}
           className="flex items-center justify-center md:w-1/3 w-full  mx-auto sm:px-0 px-4 "
         >
-          <div className="overflow-hidden w-50">
+          <div className="overflow-hidden w-80">
             <img
               className=" flex justify-center items-center text-center sm:rounded-none rounded-b-lg   mx-auto"
               src="https://i.ibb.co/zrbj47J/s-1-removebg-preview-1.png"
